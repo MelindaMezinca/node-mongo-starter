@@ -1,0 +1,20 @@
+{
+  "name": "node-mongo-starter",
+  "version": "1.0.0",
+  "description": "node js with mongo db boilerplate",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MelindaMezinca/node-mongo-starter.git"
+  },
+  "author": "Melinda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MelindaMezinca/node-mongo-starter/issues"
+  },
+  "homepage": "https://github.com/MelindaMezinca/node-mongo-starter#readme"
+}
