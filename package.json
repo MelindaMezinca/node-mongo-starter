@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/MelindaMezinca/node-mongo-starter/issues"
   },
-  "homepage": "https://github.com/MelindaMezinca/node-mongo-starter#readme"
+  "homepage": "https://github.com/MelindaMezinca/node-mongo-starter#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
 }
