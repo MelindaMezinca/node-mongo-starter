@@ -15,6 +15,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 app.use('/api/v1.0', user);
 
+
 app.get('/api/hello', (req, res) => res.send('Hello World!'));
 app.listen(port, () => console.log(`The server is started on port ${port}!`));
 
