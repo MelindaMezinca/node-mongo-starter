@@ -1,11 +1,11 @@
 const app = require('express')();
 const bodyParser = require('body-parser'); //package used to handle JSON requests in a middleware
-const constants = require('./src/utils/constants.js');
+const constants = require('./src/utils/constants');
 const dbUrl = constants.db.url;
 const port = process.env.port || constants.server.port;
 const user = require('./src/routes/user.route'); // Imports routes for the users
 
-const dbConfig = require('./src/db/config.js');
+const dbConfig = require('./src/db/config');
 dbConfig.connection(dbUrl).then(() =>  console.log('connection succesful'))
 
 .catch((err) => console.error(err));

@@ -3,6 +3,6 @@ module.exports = {
         port: 5000
     },
     db: {
-            url: 'mongodb://localhost:27017/default'
+            url: 'mongodb://localhost:27017/mongo'
         }
 }
